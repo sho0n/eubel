@@ -1,11 +1,11 @@
 import React from 'react';
 
-import image1 from '../../assets/images/modern-design.jpg';
-import image2 from '../../assets/images/clean-design.jpg';
-import image3 from '../../assets/images/great-support.jpg';
-import image4 from '../../assets/images/easy-customise.jpg';
-import image5 from '../../assets/images/unlimited-features.jpg';
-import image6 from '../../assets/images/advanced-option.jpg';
+import image2 from '../../assets/images/estetica.jpg';
+import image3 from '../../assets/images/fisioterapia.jpg';
+import image4 from '../../assets/images/nutricion.jpg';
+import image5 from '../../assets/images/osteopatia.jpg';
+import image1 from '../../assets/images/ciatica.jpg';
+import image6 from '../../assets/images/daith.png';
 
 import { Row, Col } from 'antd';
 import { Card } from 'antd';
@@ -16,8 +16,7 @@ function AppFeature() {
     <div id="feature" className="block featureBlock bgGray">
       <div className="container-fluid">
         <div className="titleHolder">
-          <h2>Key Features and Benefits</h2>
-          <p>Obcaecati consequatur libero repudiandae, aperiam itaque laborum!</p>
+          <h2>Tratamientos</h2>
         </div>
         <Row gutter={[16, 16]}>
           <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }}>
@@ -25,23 +24,15 @@ function AppFeature() {
               hoverable
               cover={<img alt="Modern Design" src={image1} />}
             >
-              <Meta title="Modern Design" />
+              <Meta title="Ciática" />
             </Card>
           </Col>
           <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }}>
             <Card
               hoverable
-              cover={<img alt="Test" src={image2} />}
+              cover={<img alt="Masajes" src={image3} />}
             >
-              <Meta title="Clean and Elegant" />
-            </Card>
-          </Col>
-          <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }}>
-            <Card
-              hoverable
-              cover={<img alt="Test" src={image3} />}
-            >
-              <Meta title="Great Support" />
+              <Meta title="Masajes" />
             </Card>
           </Col>
           <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }}>
@@ -49,7 +40,7 @@ function AppFeature() {
               hoverable
               cover={<img alt="Test" src={image4} />}
             >
-              <Meta title="Easy to customise" />
+              <Meta title="Nutrición" />
             </Card>
           </Col>
           <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }}>
@@ -57,15 +48,23 @@ function AppFeature() {
               hoverable
               cover={<img alt="Test" src={image5} />}
             >
-              <Meta title="Unlimited Features" />
+              <Meta title="Osteopatia" />
             </Card>
           </Col>
           <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }}>
             <Card
               hoverable
-              cover={<img alt="Test" src={image6} />}
+              cover={<img alt="Test" src={image3} />}
             >
-              <Meta title="Advanced Options" />
+              <Meta title="Fisioterapia" />
+            </Card>
+          </Col>
+          <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }}>
+            <Card
+              hoverable
+              cover={<img alt="Daith" src={image6} />}
+            >
+              <Meta title="Daith" />
             </Card>
           </Col>
         </Row>

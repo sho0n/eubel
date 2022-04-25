@@ -8,8 +8,8 @@ function AppContact() {
     <div id="contact" className="block contactBlock">
       <div className="container-fluid">
         <div className="titleHolder">
-          <h2>Get in Touch</h2>
-          <p>Dolore nam rerum obcaecati fugit odio nobis Molestiae rerum</p>
+          <h2>Ponte en contacto</h2>
+          <p>Para pedir cita y más rápida atención llamar por teléfono.</p>
         </div>
         <Form
           name="normal_login"
@@ -21,41 +21,41 @@ function AppContact() {
             rules={[
               { 
                 required: true,
-                message: 'Please enter your full name!' 
+                message: 'Por favor escriba su nombre!' 
               }]
             }
           >
-            <Input placeholder="Full Name" />
+            <Input placeholder="Nombre" />
           </Form.Item>
           <Form.Item
             name="email"
             rules={[
               {
                 type: 'email',
-                message: 'The input is not valid E-mail!',
+                message: 'lo siento, eso no es un E-mail valido!',
               },
               {
                 required: true,
-                message: 'Please input your E-mail!',
+                message: 'Porfavor escriba su E-mail!',
               },
             ]}
           >
-            <Input placeholder="Email Address"/>
+            <Input placeholder="Email"/>
           </Form.Item>
           <Form.Item
             name="telephone"
           >
-            <Input placeholder="Telephone" />
+            <Input placeholder="Telefono" />
           </Form.Item>
           <Form.Item
             name="subject"
           >
-            <Input placeholder="Subject" />
+            <Input placeholder="Asunto" />
           </Form.Item>
           <Form.Item
             name="message"
           >
-            <TextArea placeholder="Message" />
+            <TextArea placeholder="Mensage" />
           </Form.Item>
           <Form.Item>
             <Form.Item 
@@ -63,15 +63,15 @@ function AppContact() {
               valuePropName="checked"
               noStyle
               rules={[
-                { validator:(_, value) => value ? Promise.resolve() : Promise.reject('Should accept agreement') },
+                { validator:(_, value) => value ? Promise.resolve() : Promise.reject('Debes aceptar los terminos') },
               ]}
             >
-              <Checkbox>I agree with terms and conditions.</Checkbox>
+              <Checkbox>Acepto los terminos y condiciones.</Checkbox>
             </Form.Item>
           </Form.Item>
           <Form.Item>
             <Button type="primary" htmlType="submit" className="login-form-button">
-              Submit
+              Hecho!
             </Button>
           </Form.Item>
         </Form>

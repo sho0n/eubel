@@ -7,17 +7,17 @@ const items = [
   {
     key: '1',
     title: 'Centro de bienestar',
-    content: 'Tenemos mas de 30 anos de experiencia y miles de personas nos avalan.',
+    content: 'Tenemos mas de 30 años de experiencia y miles de personas nos avalan.',
   },
   {
     key: '2',
-    title: 'Expertos en ciatica',
-    content: 'En Eubel usamos tecnicas ancestrales para aliviar los dolores de la ciatica.',
+    title: 'Expertos en ciática',
+    content: 'En Eubel usamos tecnicas ancestrales para aliviar los dolores de la ciática.',
   },
   {
     key: '3',
-    title: 'Shein y Daigh',
-    content: 'Usamos varias tecnicas para tratar la ansiedad y las migra;as.',
+    title: 'Piercing Daith',
+    content: 'Usamos varias técnicas para tratar la ansiedad y las migrañas.',
   },
 ]
 
@@ -31,10 +31,10 @@ function AppHero() {
               <div className="content">
                 <h3>{item.title}</h3>
                 <p>{item.content}</p>
-                <div className="btnHolder">
+                {/* <div className="btnHolder"> 
                   <Button type="primary" size="large">Learn More</Button>
                   <Button size="large"><i className="fas fa-desktop"></i> Watch a Demo</Button>
-                </div>
+          </div> */}
               </div>
             </div>  
           );

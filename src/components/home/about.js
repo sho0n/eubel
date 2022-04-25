@@ -5,21 +5,21 @@ import { Row, Col } from 'antd';
 const items = [
   {
     key: '1',
-    icon: <i className="fas fa-chart-pie"></i>,
-    title: 'High Performance',
-    content: 'cu nostro dissentias consectetuer mel. Ut admodum conceptam mei, cu eam tation fabulas abhorreant. His ex mandamus.',
+    icon: <i className="fas fa-dove"></i>,
+    title: 'No más dolor',
+    content: 'Despídete para siempre del dolor, hormigueo o entumecimiento del muslo, la pantorrilla o el pie.',
   },
   {
     key: '2',
-    icon: <i className="fas fa-desktop"></i>,
-    title: 'Flat Design',
-    content: 'cu nostro dissentias consectetuer mel. Ut admodum conceptam mei, cu eam tation fabulas abhorreant. His ex mandamus.',
+    icon: <i className="fas fa-percentage"></i>,
+    title: '99%',
+    content: 'Esta técnica tiene un alto porcentaje de éxito.',
   },
   {
     key: '3',
-    icon: <i className="fas fa-database"></i>,
-    title: 'Simplified Workflow',
-    content: 'cu nostro dissentias consectetuer mel. Ut admodum conceptam mei, cu eam tation fabulas abhorreant. His ex mandamus.',
+    icon: <i className="fas fa-check-circle"></i>,
+    title: 'Definitivo',
+    content: 'La mayoría de las personas no vuelven a sentir dolor debido a la ciática.',
   },
 ]
 
@@ -28,11 +28,11 @@ function AppAbout() {
     <div id="about" className="block aboutBlock">
       <div className="container-fluid">
         <div className="titleHolder">
-          <h2>About Us</h2>
-          <p>dolor sit amet, consectetur adipisicing elit</p>
+          <h2>Ciatica</h2>
+          <p>Aliviamos la ciática quemando la oreja</p>
         </div>
         <div className="contentHolder">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit necessitatibus officiis repudiandae est deserunt delectus dolorem iure porro distinctio fuga, nostrum doloremque. Facilis porro in laborum dolor amet ratione hic? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam aut a porro, adipisci quidem sint enim pariatur ducimus, saepe voluptatibus inventore commodi! Quis, explicabo molestias libero tenetur temporibus perspiciatis deserunt.</p>
+          <p>La cauterización es una técnica que se utiliza en auriculoterapia, consiste en quemar los puntos de la oreja y está dentro de la moxibustion. De aquí viene esta técnica ancestral que realizamos en nuestro centro, consiste en cauterizar o quemar varios puntos de la oreja, solo le quedará  una pequeña costra a se caerá en 15 días quedando una pequeña quemadura inapreciable, pero que para usted será una gran alegría deshacerse de sus problemas del nervio ciático para siempre.</p>
         </div>
         <Row gutter={[16, 16]}>   
           {items.map(item => {
