@@ -30,6 +30,14 @@ function AppFeature() {
           <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }}>
             <Card
               hoverable
+              cover={<img alt="Daith" src={image6} />}
+            >
+              <Meta title="Daith" />
+            </Card>
+          </Col>
+          <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }}>
+            <Card
+              hoverable
               cover={<img alt="Masajes" src={image3} />}
             >
               <Meta title="Masajes" />
@@ -49,22 +57,6 @@ function AppFeature() {
               cover={<img alt="Test" src={image5} />}
             >
               <Meta title="Osteopatia" />
-            </Card>
-          </Col>
-          <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }}>
-            <Card
-              hoverable
-              cover={<img alt="Test" src={image3} />}
-            >
-              <Meta title="Fisioterapia" />
-            </Card>
-          </Col>
-          <Col xs={{ span: 24 }} sm={{ span: 12 }} md={{ span: 8 }}>
-            <Card
-              hoverable
-              cover={<img alt="Daith" src={image6} />}
-            >
-              <Meta title="Daith" />
             </Card>
           </Col>
         </Row>

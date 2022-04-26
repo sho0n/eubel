@@ -1,6 +1,7 @@
 {
   "name": "eubelv2",
   "version": "0.1.0",
+  "homepage": "http://www.eubel.es",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
@@ -40,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
