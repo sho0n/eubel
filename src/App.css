@@ -200,13 +200,17 @@ opacity: 1;
   opacity: 1;
 }
 
+/*  RESPONSIVE */
+.ant-drawer-wrapper-body{
+  width: 50%;
+}
+
 /* 
 hero
 ---- 
 */
 .heroBlock {
-  background: url('assets/images/field.jpg') no-repeat;
-  background-position: 50% 100%; 
+  background: url('assets/images/people.jpg') no-repeat;
   background-size: cover;
   height: 100vh;
 }
@@ -221,7 +225,7 @@ hero
 }
 
 .heroBlock .slick-dots li button {
-  background: rgb(245, 4, 4) !important;
+  background: rgb(11, 1, 1) !important;
 }
 
 .heroBlock .slick-dots li.slick-active button {
@@ -243,14 +247,14 @@ hero
   font-weight: bold;
   line-height: 1.2;
   padding: 20px;
-  color: rgb(24, 92, 4);
+  color: rgb(14, 15, 14);
   
 }
 
 .heroBlock p {
   margin: 0 0 30px;
   padding: 20px;
-  color: rgb(24, 92, 4);
+  color: rgb(3, 3, 3);
 }
 
 .heroBlock .btnHolder {

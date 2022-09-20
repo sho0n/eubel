@@ -39,7 +39,7 @@ function AppHeader() {
           </Button>
           <Drawer
             placement="right"
-            closable={false}
+            closable={true}
             onClose={onClose}
             visible={visible}
           >
@@ -47,9 +47,9 @@ function AppHeader() {
               <Link href="#hero" title="Inicio" />
               <Link href="#feature" title="Ciatica" />
               <Link href="#about" title="Tratamientos" />
-              <Link href="#works" title="How it works" />
+              <Link href="#works" title="Pide cita" />
               <Link href="#faq" title="FAQ" />
-              <Link href="#pricing" title="Pricing" />
+              <Link href="#pricing" title="Donde estamos" />
               <Link href="#contact" title="Contacto" />
             </Anchor>
           </Drawer>

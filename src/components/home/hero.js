@@ -6,8 +6,9 @@ import { Carousel } from 'antd';
 const items = [
   {
     key: '1',
-    title: 'Centro de bienestar',
-    content: 'Tenemos mas de 30 años de experiencia y miles de personas nos avalan.',
+    title: 'Piercing Daith',
+    content: 'Usamos varias técnicas para tratar la ansiedad y las migrañas.',
+    
   },
   {
     key: '2',
@@ -16,8 +17,8 @@ const items = [
   },
   {
     key: '3',
-    title: 'Piercing Daith',
-    content: 'Usamos varias técnicas para tratar la ansiedad y las migrañas.',
+    title: 'Centro de bienestar',
+    content: 'Tenemos mas de 30 años de experiencia y miles de personas nos avalan.',
   },
 ]
 
